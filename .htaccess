@@ -1,5 +1,5 @@
 <FilesMatch ".+\.(usdz)$"> Header set Content-Type "model/vnd.usdz+zip" Header set Content-Disposition "attachment" 
 <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Origin "true"
   </IfModule>
 </FilesMatch>
